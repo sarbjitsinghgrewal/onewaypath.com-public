@@ -1,0 +1,405 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0044)https://www.onewaypath.com/teamSelect/syoung -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+@charset "UTF-8";
+
+/*local css*/
+
+@font-face {
+  font-family: "oklahomaregular";
+  /*src: url("https://raw.githubusercontent.com/onewaypath/css/master/fonts/oklahoma_normal-webfont.woff")*/
+   src: url("cfonts/oklahoma_normal-webfont.woff")
+	format("woff");
+  /*src: url("../fonts/oklahoma_normal-webfont.woff") format("woff");*/
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "oklahomabold";
+  src: url("cfonts/oklahoma_bold-webfont.woff")
+    format("woff");
+  /*src: url("../fonts/oklahoma_bold-webfont.woff") format("woff");*/
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "open-sans-regular";
+  src: url("cfonts/open-sans-regular.ttf");
+  /*src: url("../fonts/open-sans-regular.ttf");*/
+  font-display: swap;
+}
+
+/* basic **/
+
+html {
+  border: solid 20px #fff;
+  box-sizing: border-box;
+  min-height: 100vh;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  text-align: center;
+  background: #cae3d1;
+  padding-top: 80px;
+  padding-bottom: 30px;
+  max-width: 650px;
+  margin: auto;
+}
+
+h2,
+h3,
+h4,
+p {
+  font-family: open-sans-regular, sans-serif;
+  color: #030004;
+  font-weight: 400;
+  font-size: 21px;
+  max-width: 650px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 30px;
+}
+
+h2 {
+  font-size: 30px;
+  font-family: "oklahomabold";
+}
+
+h3 {
+  text-decoration: underline;
+}
+
+h4 {
+  font-size: 18px;
+}
+
+p {
+  font-size: 16px;
+}
+
+/** Group header **/
+body h1:nth-child(1) {
+  color: #ca972b;
+  font-size: 62px;
+  text-transform: uppercase;
+  font-family: oklahomaregular, arial;
+  font-weight: normal;
+  margin-bottom: 18px;
+}
+
+body h1:nth-child(2) {
+  text-transform: uppercase;
+  font-size: 40px;
+  font-family: oklahomaregular, arial;
+  font-weight: normal;
+  line-height: 0px;
+  max-width: 450px;
+  margin: auto;
+  color: #000;
+}
+
+/** Group header- left line **/
+body h1:nth-child(2):before {
+  content: "";
+  display: block;
+  width: 130px;
+  margin-left: 0px;
+  height: 2px;
+  background: #000;
+  position: absolute;
+}
+
+/** Group header- right line **/
+body h1:nth-child(2):after {
+  content: "";
+  display: block;
+  width: 131px;
+  height: 2px;
+  background: #000;
+  margin-left: 320px;
+  position: absolute;
+}
+
+/** footer **/
+footer {
+  margin-top: 50px;
+}
+
+footer p {
+  text-align: center;
+}
+
+footer a {
+  font-family: open-sans-regular, sans-serif;
+  text-decoration: none;
+  color: #030004;
+}
+
+footer a:hover {
+  color: #ca972b;
+}
+
+h2 a img:nth-child(2) {
+  opacity: 0;
+}
+
+h2 a:hover img:nth-child(2) {
+  opacity: 1;
+}
+
+h2 a:hover img:nth-child(1) {
+  opacity: 0;
+}
+
+h2 img {
+  margin-top: -130px;
+}
+
+/** media query **/
+@media all and (max-width: 767px) {
+  body {
+    padding-top: 80px;
+  }
+
+  body h1:nth-child(1) {
+    font-size: 38px;
+  }
+
+  body h1:nth-child(2) {
+    font-size: 21px;
+  }
+
+  body h1:nth-child(2)::before {
+    width: 85px;
+    margin-left: 85px;
+  }
+
+  body h1:nth-child(2):after {
+    width: 80px;
+    margin-left: 284px;
+  }
+}
+
+@media all and (max-width: 490px) {
+  body h1:nth-child(2) {
+    max-width: 250px;
+  }
+
+  body h1:nth-child(2)::before {
+    width: 82px;
+    margin-left: -12px;
+  }
+
+  body h1:nth-child(2):after {
+    margin-left: 180px;
+    width: 83.5px;
+  }
+}
+
+@media all and (max-width: 400px) {
+  body h1:nth-child(1) {
+    font-size: 30px;
+  }
+  body h1:nth-child(2):after {
+    width: 51px;
+  }
+
+  body h1:nth-child(2)::before {
+    width: 55px;
+    margin-left: 12px;
+  }
+  p {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+
+@media all and (max-width: 280px) {
+  body h1:nth-child(2):after {
+    display: none;
+  }
+
+  body h1:nth-child(2)::before {
+    display: none;
+  }
+}
+/** 15-03-2021 16:12pm **/
+body {
+  overflow: hidden;
+}
+
+body,
+h2,
+h3,
+h4,
+p {
+  max-width: 750px;
+}
+
+h3 {
+  margin-top: 0px;
+  font-size: 15px;
+  text-decoration: none;
+  border-bottom: solid 2px #ca972b;
+  display: table;
+  margin: 0px;
+}
+
+h2 {
+  text-align: left;
+  margin-top: 100px;
+  margin-bottom: 0px;
+  font-size: 22px;
+  color: #ca972b;
+  text-transform: uppercase;
+}
+
+p {
+  text-align: left;
+  margin-top: 0px;
+}
+
+img {
+  padding: 5px;
+  border: solid 3px #ca972b;
+  float: left;
+  margin-top: -220px;
+  width: 125px;
+}
+
+@media all and (min-width: 800px) {
+  body h1:nth-child(1) {
+    margin-right: -420px;
+    font-size: 40px;
+  }
+
+  body h1:nth-child(2) {
+    margin-right: -60px;
+    font-size: 25px;
+  }
+
+  body h1:nth-child(2):before {
+    width: 80px;
+    margin-left: 80px;
+  }
+
+  body h1:nth-child(2):after {
+    width: 80px;
+    margin-left: 292px;
+  }
+}
+
+@media all and (min-width: 491px) and (max-width: 799px) {
+  body h1:nth-child(1) {
+    font-size: 38px;
+  }
+
+  body h1:nth-child(2) {
+    font-size: 21px;
+  }
+
+  body h1:nth-child(2)::before {
+    width: 85px;
+    margin-left: 85px;
+  }
+
+  body h1:nth-child(2):after {
+    width: 80px;
+    margin-left: 284px;
+  }
+}
+
+@media all and (max-width: 799px) {
+  h2,
+  h3,
+  h4,
+  p,
+  img {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  h2 {
+    margin-top: 190px;
+    font-size: 20px;
+  }
+
+  img {
+    float: none;
+    margin-top: -180px;
+  }
+}
+
+@media all and (max-width: 400px) {
+  h2 {
+    margin-top: 240px;
+  }
+
+  img {
+    margin-top: -220px;
+  }
+}
+
+</style>
+<!-- <link rel="stylesheet" href="./main/css/style.css" /> -->
+<title>One Way Path Group</title>
+</head>
+<body>
+
+<h1>One Way Path</h1> <h1>Group</h1>
+
+
+	  
+    
+	  
+    
+	  
+    
+	  
+    
+	  
+    
+	  
+    
+	  
+    
+	  
+		  
+		  <h2>Sandra Young</h2>
+		  <img src="./syoung-bio_files/syoung.jpg">
+		  <h3>Executive Chair, Buddhavipassana Foundation</h3>
+		  <p></p><p>Sandra Young is the Executive Chair of the Buddhavipassana Foundation. In this role, she oversees the Foundation’s work to promote early childhood education in Guyana. Early childhood education (ECE) refers to programs for children up to 8 years old based on an explicit curriculum delivered by qualified staff and designed to support children's development and learning. Settings may include child care centres, nursery schools, preschools, pre- or junior kindergarten, kindergarten and play school. 
+As a family owned business, with roots in Guyana, One Way Path Group provides funding to the Foundation’s activities in the country with a particular emphasis on early childhood education as a cornerstone of long-term economic growth that is inclusive of a broad cross-section of society.</p>
+<p>After emigrating from Guyana, Sandra lived for a time in England before immigrating to Toronto in the 1970s. She began her career at the Toronto District School Board and took on progressively senior roles at the former regional government, Metro Toronto, which provided consolidated social services for the former cities of Toronto and those bordering it.</p>
+<p>After leaving Metro, Sandra joined the private sector as an entrepreneur and opened the Ashanti Room. The Ashanti Room was a forerunner of the now more mainstream practice of consciously including African representation in children’s play and learning material. In addition to providing Afro-centric home furnishing and other products specifically designed to be inclusive of African culture such as paintings and other décor items, the store sold Afro-centric books, cards, dolls and other toys as well as health items such as shea butter.</p>
+<p>As the trend towards African inclusivity took hold in Toronto, competitors began to enter various components of the market, diminishing the business case for a family owned retailer and strengthening the case for a profitable exit from the sector, which was realized. Transition from the Ashanti Room provided the opportunity for Sandra to pursue her interests in teaching which included teaching insight meditation at the Buddhavipassana Meditation Centre in Toronto, teaching grant and funding application writing at George Brown College and teaching English as a Second Language at a Toronto-based community organization until 2015.</p>
+<p>Sandra holds a Bachelor of Sociology from York University and a diploma in teaching English as a Second Language. In 2017, Sandra was recognized on behalf of Chiang Mai Province, Thailand for her work to teach insight meditation in Canada and Thailand. In 2018 she was formerly appointed by the Northern Thai meditation master, Ajahn Tong Sirimangalo, to teach insight meditation based on the four foundations of mindfulness.</p><p></p>
+	  
+    
+	  
+    
+	  
+    
+	  
+    
+	  
+    
+	  
+    
+	  
+    
+	  
+    
+
+<footer>   
+	<p><a href="https://www.onewaypath.com/about">About</a> |<a href="https://www.onewaypath.com/"> Home </a> | <a href="https://www.onewaypath.com/contact-us">Contact Us</a> | <a href="https://www.onewaypath.com/team">Our Team</a> |  <a href="https://www.onewaypath.com/privacy">Privacy</a></p>
+</footer>
+
+
+</body></html>
