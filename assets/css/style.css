@@ -35,3 +35,17 @@
       padding: 0px !important; 
     }
 }
+
+@media (max-width: 428px) {
+    
+    main .container {
+        padding: 0rem !important;
+    }
+    .card, .expertise{
+
+        padding: 1rem !important;
+        border-radius: 0px !important;
+        margin-bottom: 0.15rem !important;
+    }
+ 
+}
