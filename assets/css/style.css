@@ -23,11 +23,11 @@
 
 @media (max-width: 768px) { 
      
-    .card div:first-child img{
+    /* .card div:first-child img{
 
       width: 100%;
       height: fit-content;
-    }
+    } */
 
     .card div:not(:first-child){
       margin-top: 8px;
