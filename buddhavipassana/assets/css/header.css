@@ -1,0 +1,8 @@
+.site-header-logo h1  {
+  display: block;
+  font-family: "Muli",sans-serif;
+  font-weight: 300;
+  letter-spacing: -1px;
+  line-height: normal;
+  margin: 0;
+}
