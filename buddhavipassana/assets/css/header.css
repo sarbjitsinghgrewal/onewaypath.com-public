@@ -7,3 +7,9 @@
   line-height: normal;
   margin: 0;
 }
+.dropdown-toggle::after{
+  vertical-align: middle;
+}
+header .dropdown-menu .nav-link {
+  padding: 7px 17px;
+}
