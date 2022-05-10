@@ -13,3 +13,10 @@
 header .dropdown-menu .nav-link {
   padding: 7px 17px;
 }
+header .dropdown-toggle.show::after{
+  border-bottom: 0.3em solid;
+  border-top: 0;
+}
+header .dropdown-toggle::after{
+  width: 10px;
+}
