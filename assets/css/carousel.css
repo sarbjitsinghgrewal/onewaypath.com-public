@@ -33,7 +33,11 @@ body {
   min-width: 100%;
   height: 32rem;
 }
-
+.featurette{
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
 
 /* MARKETING CONTENT
 -------------------------------------------------- */
@@ -68,6 +72,7 @@ body {
   /* rtl:remove */
   letter-spacing: -.05rem;
 }
+
 
 
 /* RESPONSIVE CSS
