@@ -39,11 +39,17 @@ body {
   flex-wrap: nowrap;
   padding-bottom: 1rem;
   margin-top: -1px;
-  overflow-x: auto;
+  overflow-x: scroll;
   color: rgba(255, 255, 255, .75);
   text-align: center;
   white-space: nowrap;
   -webkit-overflow-scrolling: touch;
+}
+.nav-scroller .nav.overflow_auto{
+  overflow-x: scroll;
+}
+.nav-scroller .nav.overflow_none{
+  overflow-x: hidden;
 }
 
 .nav-underline .nav-link {

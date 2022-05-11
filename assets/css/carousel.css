@@ -33,11 +33,6 @@ body {
   min-width: 100%;
   height: 32rem;
 }
-.featurette{
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
 
 /* MARKETING CONTENT
 -------------------------------------------------- */
@@ -72,6 +67,12 @@ body {
   /* rtl:remove */
   letter-spacing: -.05rem;
 }
+.featurette{
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
 
 
 
@@ -92,7 +93,7 @@ body {
 }
 
 @media (min-width: 62em) {
-  .featurette-heading {
+  .featurette-heading,.featurette h2 {
     margin-top: 7rem;
   }
 }
