@@ -39,7 +39,7 @@ body {
   flex-wrap: nowrap;
   padding-bottom: 1rem;
   margin-top: -1px;
-  overflow-x: auto;
+  overflow-x: scroll;
   color: rgba(255, 255, 255, .75);
   text-align: center;
   white-space: nowrap;
@@ -51,7 +51,6 @@ body {
 .nav-scroller .nav.overflow_none{
   overflow-x: hidden;
 }
-
 
 .nav-underline .nav-link {
   padding-top: .75rem;
@@ -71,10 +70,4 @@ body {
 
 .bg-purple {
   background-color: #6f42c1;
-}
-/* responsive css  */
-@media (max-width: 767px){
-  .nav-scroller.move-down{
-    margin-bottom: 100px;
-  }
 }

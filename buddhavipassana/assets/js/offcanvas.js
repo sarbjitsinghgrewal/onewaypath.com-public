@@ -4,12 +4,10 @@
   // menu js 
   $('a[data-bs-toggle="dropdown"]').on('show.bs.dropdown', function () {
     $(this).parents().find("nav").addClass("overflow_none");
-    $(this).parents().find(".nav-scroller").addClass('move-down');
 })
 
 $('a[data-bs-toggle="dropdown"]').on('hide.bs.dropdown', function () {
     $(this).parents().find("nav").removeClass("overflow_none");
-    $(this).parents().find(".nav-scroller").removeClass('move-down');
 })
 
 
