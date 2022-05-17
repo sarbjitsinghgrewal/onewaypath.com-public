@@ -26,7 +26,6 @@ body {
     transform: translateX(-100%);
   }
 }
-
 .nav-scroller {
   position: relative;
   z-index: 2;
@@ -45,13 +44,22 @@ body {
   white-space: nowrap;
   -webkit-overflow-scrolling: touch;
 }
+.nav-scroller .nav.overflow_auto{
+  overflow-x: scroll;
+}
+.nav-scroller .nav.overflow_none{
+  overflow-x: hidden;
+}
 
 .nav-underline .nav-link {
-  padding-top: .75rem;
-  padding-bottom: .75rem;
+  padding: 0;
   font-size: .875rem;
   color: #6c757d;
 }
+.nav-scroller .nav > li{
+  padding: .75rem 1rem;
+}
+
 
 .nav-underline .nav-link:hover {
   color: #007bff;
@@ -64,4 +72,9 @@ body {
 
 .bg-purple {
   background-color: #6f42c1;
+}
+@media (max-width: 767px){
+  .nav-scroller.move-down {
+    margin-bottom: 100px;
+  }
 }
