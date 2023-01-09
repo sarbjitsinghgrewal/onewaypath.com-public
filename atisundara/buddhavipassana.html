@@ -24,6 +24,13 @@
         -moz-user-select: none;
         user-select: none;
       }
+      img{
+        max-width: 100%;
+        width: auto;
+      }
+      .modal-dialog {
+        max-width: 900px;
+      }
       @media (min-width: 768px) {
         .bd-placeholder-img-lg {
           font-size: 3.5rem;
@@ -245,7 +252,7 @@
               <p class="card-text">A small "L" shaped gazebo will be added to the backyard at the north end of the property. And two parking spaces will be added at on the south side.</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary" data-bs-toggle="modal" data-bs-target="#exampleModal">View</button>
                   
                 </div>
                
@@ -261,7 +268,7 @@
               <p class="card-text">In the basement, four bedrooms will be added along with a kitchenette, and a bathroom.</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary" data-bs-toggle="modal" data-bs-target="#exampleModal2">View</button>
                   
                 </div>
                 
@@ -277,7 +284,7 @@
               <p class="card-text">On the second floor, the meditation room on the south end will be converted into a bedroom and a sitting area will be added next to the stairs.</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary" data-bs-toggle="modal" data-bs-target="#exampleModal3">View</button>
                   
                 </div>
                 
@@ -294,7 +301,7 @@
               <p class="card-text">The attic will be finished to contain a bedroom, bathroom and meditation hall.</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary" data-bs-toggle="modal" data-bs-target="#exampleModal4">View</button>
                   
                 </div>
                 
@@ -313,7 +320,57 @@
     </div>
       </div>
     </div>
+
   </main>
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content border-0 mx-2">
+          <div class="modal-body">
+            <img src="assets/images/Buddhavipassana-site-plan.jpg" />
+          </div>
+          <div class="text-end p-2">
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModal2Label" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content  border-0 mx-2">
+          <div class="modal-body">
+            <img src="assets/images/Buddhavipassana-basement.jpg" />
+          </div>
+          <div class="text-end p-2">
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModal3Label" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content  border-0 mx-2">
+          <div class="modal-body">
+            <img src="assets/images/Buddhavipassana-second-floor.jpg" />
+          </div>
+          <div class="text-end p-2">
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModal4Label" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content  border-0 mx-2">
+          <div class="modal-body">
+            <img src="assets/images/Buddhavipassana-attic.jpg" />
+          </div>
+          <div class="text-end p-2">
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+        </div>
+      </div>
+    </div>
       <!-- FOOTER -->
       <div class="b-example-divider"><br><hr></div>
 
