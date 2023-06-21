@@ -1,0 +1,180 @@
+
+
+@media (min-width: 1460px){
+    .container {
+        max-width: 1500px;
+    }
+}
+@media (min-width: 1200px){
+    .right-panel {
+        padding-left: 60px;
+    }
+    .pt-100{
+        padding-top: 100px;
+    }        
+    .pt-160{
+        padding-top: 160px;
+    }
+        
+    .proj-col{
+        width: 30%;
+    }
+}
+@media (max-width: 1200px) and (min-width: 992px){
+    .proj-col {
+        width: 50%;
+    }
+}
+@media (max-width: 1199px){
+    .pt-160 ,.pt-100{
+        padding-top: 40px;
+    }
+    .left-panel h4 {
+        margin-bottom: 20px;
+    }
+    .hero-banner {
+        height: 600px;
+    }
+    .hero-content p,
+    .center-panel p ,
+    .right-panel .detail,
+    .contact-right-panel p{
+        font-size: 18px;
+        letter-spacing: 0;
+    }
+    .center-panel h2 {
+        font-size: 32px;
+        margin-bottom: 15px;
+    }
+    .right-panel .number{
+        font-size: 32px;
+    }
+    .proj-card h2 {
+        font-size: 24px;
+    }
+    .proj-card {
+        margin-bottom: 80px;
+    }
+    header{
+        padding: 20px 0px;
+    }
+    .logo img {
+        max-width: 280px;
+    }
+    header .menu-icon svg{
+        height: 30px;
+        width: 30px;
+    }
+}
+@media (max-width: 991px){
+    .hero-banner {
+        height: 300px;
+    }
+    .hero-content p {
+        width: 90%;
+        font-size: 12px;
+    }
+    .hero-content h1 {
+        margin-bottom: 20px;
+        font-size: 24px;
+    }
+    .proj-card {
+        margin-bottom: 60px;
+    }
+    header .menu-icon svg {
+        height: 20px;
+        width: 23px;
+    }
+}
+@media (max-width: 767px){
+    .logo img {
+        max-width: 178px;
+    }
+}
+@media (min-width: 576px){
+    .for-mobile{
+        display: none;
+    }
+    .for-desktop{
+        display: block;
+    }
+}
+@media (max-width: 575px){
+    .hero-banner {
+        height: 290px;
+        background: url(../images/New-images/hero-banner-mobile.jpg) no-repeat center;
+        background-size: cover;
+    }
+    .left-panel h4 br {
+        display: none;
+    }
+    .left-panel h4 {
+        font-size: 12px;
+        line-height: normal;
+    }
+    .center-panel h2 {
+        font-size: 24px;
+    }
+    .hero-content p, 
+    .center-panel p, 
+    .right-panel .detail,
+    .proj-card .button-grp-warpper h5,
+    .footer,
+    .button-grp-warpper h5{
+        font-size: 12px;
+    }
+    .button-grp-warpper h5::after,
+    .proj-card .button-grp-warpper h5::after{
+        background-size: 12px;
+    }
+    
+    .contact-right-panel .button-grp-warpper h5 {
+        font-size: 16px;
+    }
+    .button-grp-warpper {
+        margin-bottom: 20px;
+    }
+    .center-panel h2 + p {
+        margin-bottom: 0;
+    }
+    .proj-card h2 {
+        font-size: 20px;
+    }
+    .other-projects-panel .col-md-10 .row {
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        margin-left: -10px;
+        margin-right: -10px;
+    }
+    .other-projects-panel .col-md-10 .row .proj-col {
+        width: 75%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .contactus-panel {
+        padding-top: 60px;
+        padding-bottom: 40px;
+    }
+    .footer .container {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .project-overview-panel .right-panel {
+        padding-top: 20px;
+    }
+    .proj-card {
+        padding: 15px;
+        box-shadow: rgba(0, 0, 0, 0.22) 10px 23px 30px;
+        min-height: 150px;
+    }    
+    .contact-right-panel p{
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+    .for-mobile{
+        display: block;
+    }
+    .for-desktop{
+        display: none;
+    }
+}

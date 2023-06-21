@@ -1,0 +1,281 @@
+/* Roboto regular */
+
+@font-face {
+    font-family: "Roboto";
+    src: url("/fonts/Roboto-Regular.eot");
+    src: url("/fonts/Roboto-Regular.eot?#iefix") format('embedded-opentype'),
+         url("/fonts/Roboto-Regular.woff2") format('woff2'),
+         url("/fonts/Roboto-Regular.woff") format('woff'),
+         url("/fonts/Roboto-Regular.ttf") format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Roboto bold */
+
+@font-face {
+    font-family: "Roboto";
+    src: url('/fonts/Roboto/Roboto-Bold.eot');
+    src: url('/fonts/Roboto/Roboto-Bold.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/Roboto/Roboto-Bold.woff2') format('woff2'),
+         url('/fonts/Roboto/Roboto-Bold.woff') format('woff'),
+         url('/fonts/Roboto/Roboto-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+/* Roboto_Condensed regular */
+@font-face {
+    font-family: 'Roboto Condensed', sans-serif;
+    src: url("/fonts/Roboto_Condensed/Roboto-Regular.eot");
+    src: url("/fonts/Roboto_Condensed/Roboto-Regular.eot?#iefix") format('embedded-opentype'),
+         url("/fonts/Roboto_Condensed/Roboto-Regular.woff2") format('woff2'),
+         url("/fonts/Roboto_Condensed/Roboto-Regular.woff") format('woff'),
+         url("/fonts/Roboto_Condensed/Roboto-Regular.ttf") format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Roboto_Condensed bold */
+
+@font-face {
+    font-family: 'Roboto Condensed', sans-serif;
+    src: url('/fonts/Roboto_Condensed/RobotoCondensed-Light.eot');
+    src: url('/fonts/Roboto_Condensed/RobotoCondensed-Light.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/Roboto_Condensed/RobotoCondensed-Light.woff2') format('woff2'),
+         url('/fonts/Roboto_Condensed/RobotoCondensed-Light.woff') format('woff'),
+         url('/fonts/Roboto_Condensed/RobotoCondensed-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+/* Roboto_Condensed bold */
+
+@font-face {
+    font-family: 'Roboto Condensed', sans-serif;
+    src: url('/fonts/Roboto_Condensed/RobotoCondensed-Bold.eot');
+    src: url('/fonts/Roboto_Condensed/RobotoCondensed-Bold.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/Roboto_Condensed/RobotoCondensed-Bold.woff2') format('woff2'),
+         url('/fonts/Roboto_Condensed/RobotoCondensed-Bold.woff') format('woff'),
+         url('/fonts/Roboto_Condensed/RobotoCondensed-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+h1, h2{
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.container {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+header {
+    filter: drop-shadow(0px 15px 15px rgba(0,0,0,0.2));
+    background-color: #f2efe4;
+    padding: 34px 0px;
+}
+.logo img{
+    max-width: 387px;
+}
+.theme-light-color{
+    color: #b6914d;
+}
+.hero-banner{
+    background: url("../images/New-images/hero-banner.jpg") no-repeat center;
+    background-size: cover;
+    position: relative;
+    height: 732px;
+    display: flex;
+    align-items: center;
+}
+.hero-content h1 {
+    margin-bottom: 25px;
+}
+.hero-content p {
+    font-size: 24px;
+    width: 75%;
+    margin-bottom: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #fff;
+}
+
+.center-panel h2 {
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #471d19;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.left-panel h4{
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.center-panel p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: #000000;
+    letter-spacing: 0.3px;
+}
+.panel-body-color{
+    background: #f2efe4;
+}
+
+
+.right-panel .number{
+    font-size: 72px;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #000000;
+    font-weight: 700;
+    margin: 0;
+}
+.right-panel .detail{
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    color: #000000;
+    font-weight: 400;
+}
+.border-bottom{
+    border-bottom-color: #b1afa7 !important;
+}
+.right-panel .unit-wrapper {
+    padding: 10px 0;
+}
+
+.button-grp-warpper{
+    border-bottom: 1px solid #818452;
+    padding-bottom: 10px;
+    margin-bottom: 50px;
+    text-decoration: none;
+    display: inline-block;
+    width: 100%;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+}
+.button-grp-warpper:hover{
+    border-bottom: 1px solid #000;
+}
+.button-grp-warpper h5{
+    color: #818452;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    letter-spacing: 0.6px;
+    position: relative;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+}
+.button-grp-warpper:hover h5{
+    color: #000000;
+}
+.button-grp-warpper h5::after{
+    content: "";
+    background: url("../images/New-images/arrow-icon.png") no-repeat center;
+    background-size: 20px;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 0;
+    left: auto;
+    display: inline-block;
+    vertical-align: middle;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+}
+.button-grp-warpper:hover h5::after{
+    background: url("../images/New-images/arrow-icon-black.png") no-repeat center;
+    background-size: 20px;
+}
+
+.proj-card{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: url("../images/New-images/proj-card-bg.png") no-repeat center;
+    background-size: cover;
+    min-height: 200px;
+    border-radius: 8px;
+    margin-bottom: 130px;
+    box-shadow: rgba(0, 0, 0, 0.22) 0 35px 30px;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+}
+.proj-card:hover{
+    transform: translateY(-10px);
+}
+.proj-card h2{
+    font-size: 28px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #fff;
+}
+.proj-card .button-grp-warpper {
+    margin-bottom: 0;
+    width: auto;
+}
+.proj-card .button-grp-warpper h5{
+    color: #fff;
+    padding-right: 50px;
+}
+.proj-card .button-grp-warpper h5::after{
+    background: url("../images/New-images/arrow-icon-white.png") no-repeat center;
+    background-size: 20px;
+}
+.proj-card .button-grp-warpper {
+    float: right;
+}
+.proj-card .button-grp-warpper,
+.proj-card .button-grp-warpper:hover{
+    border-bottom-color: #ffffff;
+}
+.proj-card .button-grp-warpper:hover {
+    transform: translateY(-10px);
+}
+.contact-right-panel .button-grp-warpper {
+    width: auto;
+}
+.contact-right-panel .button-grp-warpper h5 {
+    padding-right: 50px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+}
+.contact-right-panel p {
+    font-size: 24px;
+    font-weight: 400;
+    color: #000;
+    margin-bottom: 70px;
+    font-family: 'Roboto', sans-serif;
+}
+.contactus-panel {
+    border-top: 1px solid #b1afa7;
+}
+.footer {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    padding: 28px 0;
+    background-image: -moz-linear-gradient( -2deg, rgb(59,49,50) 0%, rgb(71,29,25) 100%);
+    background-image: -webkit-linear-gradient( -2deg, rgb(59,49,50) 0%, rgb(71,29,25) 100%);
+    background-image: -ms-linear-gradient( -2deg, rgb(59,49,50) 0%, rgb(71,29,25) 100%);
+}
