@@ -61,27 +61,59 @@
     font-weight: 700;
     font-style: normal;
 }
-
+body{
+    line-height: 1.4;font-weight:400;-webkit-font-smoothing:antialiased;-moz-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;
+    font-family: "Roboto";
+    color: #000;
+    background-color: #f2efe4;
+}
+::-moz-selection{color: #fff;background: #471d19;}
+::selection{color: #fff;background: #471d19;}
 h1, h2{
     font-size: 40px;
     font-weight: 700;
     font-family: 'Roboto Condensed', sans-serif;
 }
+h4,.h4{
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.navbar-toggler:focus {
+    box-shadow: none;
+}
 .container {
     padding-left: 30px;
     padding-right: 30px;
 }
+.theme-light-color{
+    color: #b6914d;
+}
+p:last-child{
+    margin-bottom: 0;
+}
+/* common css end  */
+
+/* header css  */
 header {
     filter: drop-shadow(0px 15px 15px rgba(0,0,0,0.2));
-    background-color: #f2efe4;
     padding: 34px 0px;
+}
+.nav-header p{
+    font-size: 18px;
 }
 .logo img{
     max-width: 387px;
 }
-.theme-light-color{
-    color: #b6914d;
+.menu-icon:hover path{
+    fill: #b6914d;
 }
+/* header css  */
+
+/* hero section  */
 .hero-banner{
     z-index: 1;
     background-size: cover;
@@ -114,7 +146,9 @@ header {
     font-weight: 400;
     color: #fff;
 }
+/* hero section  */
 
+/* project overview css  */
 .center-panel h2 {
     text-transform: uppercase;
     font-weight: 700;
@@ -123,7 +157,6 @@ header {
     font-size: 40px;
     margin-bottom: 30px;
 }
-
 .left-panel h4{
     font-size: 20px;
     line-height: 30px;
@@ -139,11 +172,6 @@ header {
     color: #000000;
     letter-spacing: 0.3px;
 }
-.panel-body-color{
-    background: #f2efe4;
-}
-
-
 .right-panel .number{
     font-size: 72px;
     font-family: 'Roboto Condensed', sans-serif;
@@ -163,7 +191,6 @@ header {
 .right-panel .unit-wrapper {
     padding: 10px 0;
 }
-
 .button-grp-warpper{
     border-bottom: 1px solid #818452;
     padding-bottom: 10px;
@@ -216,7 +243,6 @@ header {
     background: url("../images/arrow-icon-black.png") no-repeat center;
     background-size: 20px;
 }
-
 .proj-card{
     padding: 30px;
     display: flex;
@@ -265,6 +291,9 @@ header {
 .proj-card .button-grp-warpper:hover {
     transform: translateY(-10px);
 }
+/* project overview css  */
+
+/* contact footer css  */
 .contact-right-panel .button-grp-warpper {
     width: auto;
 }
@@ -292,3 +321,5 @@ header {
     background-image: -webkit-linear-gradient( -2deg, rgb(59,49,50) 0%, rgb(71,29,25) 100%);
     background-image: -ms-linear-gradient( -2deg, rgb(59,49,50) 0%, rgb(71,29,25) 100%);
 }
+/* contact footer css  */
+

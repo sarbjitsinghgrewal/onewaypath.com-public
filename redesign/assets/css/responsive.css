@@ -74,7 +74,10 @@
     header .menu-icon svg{
         height: 30px;
         width: 30px;
-    }
+    }    
+    .nav-header p {
+        font-size: 16px;
+    }  
 }
 @media (max-width: 991px){
     .hero-banner {
@@ -94,7 +97,10 @@
     header .menu-icon svg {
         height: 20px;
         width: 23px;
-    }
+    }  
+    .nav-header p {
+        font-size: 14px;
+    }  
 }
 @media (max-width: 767px){
     .logo img {
@@ -114,6 +120,7 @@
     }
 }
 @media (max-width: 575px){
+    h4,.h4{font-size: 12px;}
     .hero-banner {
         height: 290px;
     }
@@ -189,4 +196,7 @@
     .for-desktop{
         display: none;
     }
+    .nav-header p {
+        font-size: 12px;
+    }    
 }
