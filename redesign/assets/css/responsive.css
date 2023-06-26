@@ -25,6 +25,16 @@
         width: 50%;
     }
 }
+@media (max-width: 1366px){
+    .hero-banner::before{
+        background-position: 80% 50%;
+    }
+}
+@media (max-width: 1280px){
+    .hero-banner::before {
+        background-position: 60% 50%;
+    }
+}
 @media (max-width: 1199px){
     .pt-160 ,.pt-100{
         padding-top: 40px;
@@ -90,6 +100,10 @@
     .logo img {
         max-width: 178px;
     }
+    .hero-banner::before {
+        background-position: 80% 50%;
+        background-size: 180% 100%;
+    }
 }
 @media (min-width: 576px){
     .for-mobile{
@@ -102,8 +116,6 @@
 @media (max-width: 575px){
     .hero-banner {
         height: 290px;
-        background: url(../images/New-images/hero-banner-mobile.jpg) no-repeat center;
-        background-size: cover;
     }
     .left-panel h4 br {
         display: none;
