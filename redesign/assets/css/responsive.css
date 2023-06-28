@@ -1,31 +1,41 @@
 
+@media (min-width: 1921px){
+    .hero-banner{
+        min-height: 880px;
+    }
 
+}
 @media (min-width: 1460px){
     .container {
         max-width: 1600px;
     }
 }
 @media (min-width: 1200px){
-    .right-panel {
-        padding-left: 60px;
-    }
     .pt-100{
         padding-top: 100px;
     }        
-    .pt-160{
-        padding-top: 160px;
+
+}
+@media (max-width: 1460px){
+    h1, h2{
+        font-size: 38px;
+    }    
+    .right-panel .number{
+        font-size: 64px;
+    }
+    .center-panel p{
+        font-size: 22px;
     }
 }
 @media (max-width: 1366px){
     h1, h2 {
-        font-size: 36px;
+        font-size: 30px;
     }
     .hero-banner::before{
         background-position: 80% 50%;
     }
-    .proj-card{
-        padding: 27px;
-        min-height: 150px;
+    .proj-cards-wrapper{
+        margin-bottom: 110px;
     }
     .proj-card .button-grp-warpper h5 {
         font-size: 14px;
@@ -39,25 +49,41 @@
     .proj-card h2, .center-panel p, .right-panel .detail, .contact-right-panel p, .contact-right-panel .button-grp-warpper h5 {
         font-size: 20px;
     }
-}
-@media (max-width: 1280px){
-    .hero-banner::before {
-        background-position: 60% 50%;
+    .proj-col {
+        padding: 0 20px;
+    }
+    .proj-row {
+        margin: 0 -20px;
+    }
+    .right-panel .detail{
+        line-height: 36px;
+    }
+    .proj-col {
+        padding: 0 15px;
+    }
+    .proj-row {
+        margin: 0 -15px;
+    }
+    .pt-160 {
+        padding-top: 100px;
+    }
+    .right-panel {
+        padding-left: 26px;
     }
 }
 @media (max-width: 1199px){
     .pt-160 ,.pt-100{
-        padding-top: 40px;
+        padding-top: 70px;
     }
     .left-panel h4 {
         margin-bottom: 20px;
     }
     .hero-banner {
-        height: calc((var(--vh, 1vh) * 100) - 106px);
+        min-height: 570px;
     }
     .hero-content p,
     .proj-card h2, .center-panel p, .right-panel .detail, .contact-right-panel p, .contact-right-panel .button-grp-warpper h5{
-        font-size: 16px;
+        font-size: 18px;
     }
     .center-panel h2 {
         font-size: 32px;
@@ -70,9 +96,7 @@
         font-size: 22px;
     }
     .proj-card {
-        margin-bottom: 80px;
         padding: 20px;
-        min-height: 130px;
     }
     .proj-card .button-grp-warpper h5{
         padding-right: 40px;
@@ -86,10 +110,10 @@
     header .menu-icon svg{
         height: 30px;
         width: 30px;
-    }    
-    .nav-header p {
-        font-size: 16px;
-    }  
+    }   
+    .left-panel h4 br{
+        display: none;
+    }
 }
 @media (max-width: 991px){
     .hero-content p {
@@ -100,16 +124,17 @@
         margin-bottom: 20px;
         font-size: 24px;
     }
-    .proj-card {
+    
+    .proj-cards-wrapper{
         margin-bottom: 60px;
-        min-height: 115px;
     }
     header .menu-icon svg {
         height: 20px;
         width: 23px;
     }  
-    .nav-header p,.hero-content p, .center-panel p, .right-panel .detail, .contact-right-panel p, .contact-right-panel .button-grp-warpper h5, .footer p {
-        font-size: 14px;
+    .hero-content p, .center-panel p, .right-panel .detail, .contact-right-panel p, .contact-right-panel .button-grp-warpper h5, .footer p {
+        font-size: 16px;
+        line-height: 30px;
     }  
     .proj-card h2 {
         font-size: 18px;
@@ -121,37 +146,77 @@
     .proj-card .button-grp-warpper h5::after{
         background-size: 13px;
     }
+    .right-panel {
+        padding-left: 0;
+    }
+    .right-button-panel .btn-row:last-child .button-grp-warpper{
+        margin-bottom: 0;
+    }
     .proj-col {
-        width: 45%;
+        padding: 0 10px;
     }
     .proj-row {
-        margin-right: calc(-100vw/2 + 459px/2);
+        margin: 0 -10px;
+    }
+    .center-panel p{
+        max-width: 100%;
+    }
+    .pt-160, .pt-100 {
+        padding-top: 60px;
     }
 }
 @media (max-width: 767px){
+    .pt-160, .pt-100 {
+        padding-top: 40px;
+    }
     h4,.h4{letter-spacing: 1px;}
     .hero-content h1{letter-spacing: 2px;}
     .logo img {
         max-width: 178px;
     }
     .hero-banner {
-        height: calc((var(--vh, 1vh) * 100) - 82px);
+        min-height: 290px;
     }
     .hero-banner::before {
-        background-position: 80% 50%;
-        background-size: 180% 100%;
+        background-position: 70% 50%;
     }
     .proj-card{
         max-width: none;
+        filter: drop-shadow(15px 18px 12px rgba(0,0,0,0.2));
+        margin-bottom: 75px;
     }
     .proj-row {
-        margin-right: -30px;
+        margin: 0 -30px 0 0;
+        overflow-y: auto;
     }
     .proj-row > div {
-        padding: 0 10px;
+        width: 45%;
+        padding: 0 20px 0 0;
     }
     .footer{
         padding: 15px 0;
+    }
+    .container{
+        max-width: 100%;
+    }
+    .contact-right-panel p {
+        font-size: 16px;
+        margin-bottom: 20px;
+        line-height: 24px;
+    }
+    .contact-right-panel .button-grp-warpper h5 {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .project-overview-panel .right-panel {
+        padding-top: 10px;
+    }
+    .contactus-panel {
+        padding: 80px 0 60px;
+    }
+    .hero-content p, .center-panel p, .right-panel .detail, .contact-right-panel p, .contact-right-panel .button-grp-warpper h5, .footer p {
+        font-size: 14px;
+        line-height: 21px;
     }
 }
 @media (max-width: 575px){
@@ -160,7 +225,7 @@
         display: none;
     }
     .left-panel h4 {
-        font-size: 12px;
+        font-size: 14px;
         line-height: normal;
     }
     .center-panel h2 {
@@ -170,17 +235,14 @@
     .center-panel p, 
     .right-panel .detail,
     .proj-card .button-grp-warpper h5,
-    .footer,
+    .footer,.footer p,
     .button-grp-warpper h5{
         font-size: 12px;
+        line-height: 18px;
     }
     .button-grp-warpper h5::after,
     .proj-card .button-grp-warpper h5::after{
         background-size: 12px;
-    }
-    
-    .contact-right-panel .button-grp-warpper h5 {
-        font-size: 16px;
     }
     .button-grp-warpper {
         margin-bottom: 20px;
@@ -202,50 +264,27 @@
         padding-left: 10px;
         padding-right: 10px;
     }
-    .contactus-panel {
-        padding-top: 60px;
-        padding-bottom: 40px;
-    }
     .footer .container {
         padding-left: 30px;
         padding-right: 30px;
-    }
-    .project-overview-panel .right-panel {
-        padding-top: 20px;
-    }
-    .proj-card {
-        padding: 15px;
-        box-shadow: rgba(0, 0, 0, 0.22) 10px 23px 30px;
-        min-height: 150px;
-    }    
-    .contact-right-panel p{
-        font-size: 16px;
-        margin-bottom: 20px;
-    }
-    .for-mobile{
-        display: block;
-    }
-    .for-desktop{
-        display: none;
-    }
-    .nav-header p {
-        font-size: 12px;
     }   
     .project-overview-panel .right-button-panel .col-5 {
         width: 46%;
     } 
-    .proj-col {
-        width: 69%;
+    .proj-row > div {
+        width: 220px;
     }
     .contact-right-panel .button-grp-warpper {
         width: 100%;
     }
 }
-@media (max-width: 380px){
-    .proj-card{
-        min-height: 140px;
+@media (max-width: 375px){
+    .center-panel h2 {
+        font-size: 22px;
     }
-    .proj-col {
-        width: 76%;
+}
+@media (max-width: 360px){
+    .center-panel h2 {
+        font-size: 19px;
     }
 }

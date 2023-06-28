@@ -268,6 +268,9 @@ h4,.h4{
 p:last-child{
     margin-bottom: 0;
 }
+.pt-160{
+    padding-top: 160px;
+}
 /* common css end  */
 
 /* header css  */
@@ -276,7 +279,8 @@ header {
     padding: 34px 0px;
 }
 .nav-header p{
-    font-size: 18px;
+    font-size: 14px;
+    line-height: 22px;
 }
 .logo img{
     max-width: 387px;
@@ -291,12 +295,12 @@ header {
     z-index: 1;
     background-size: cover;
     position: relative;
-    height: 732px;
+    min-height: 732px;
+    padding: 50px 0;
     display: flex;
     align-items: center;
     background-color: #471d19;
     overflow: hidden;
-    height: calc((var(--vh, 1vh) * 100) - 160px);
 }
 .hero-banner::before{
     content: "";
@@ -306,7 +310,7 @@ header {
     width: 100%;
     height: 100%;
     background: url("../images/hero-banner.jpg") no-repeat right center;
-    background-size: 100% 100%;
+    background-size: cover;
     z-index: -1;
 }
 .hero-content h1 {
@@ -340,6 +344,8 @@ header {
     font-size: 24px;
     font-weight: 400;
     color: #000000;
+    line-height: 36px;
+    max-width: 582px;
 }
 .right-panel .number{
     font-size: 72px;
@@ -352,6 +358,11 @@ header {
     font-size: 24px;
     color: #000000;
     font-weight: 400;
+    display: block;
+    line-height: 36px;
+}
+.right-panel {
+    padding-left: 60px;
 }
 .border-bottom{
     border-bottom-color: #b1afa7 !important;
@@ -381,7 +392,7 @@ header {
     font-family: 'Roboto Condensed', sans-serif;
     text-transform: uppercase;
     margin-bottom: 0;
-    letter-spacing: 0.6px;
+    letter-spacing: 2px;
     position: relative;
     transition: all 0.3s ease-in-out;
     -webkit-transition: all 0.3s ease-in-out;
@@ -411,28 +422,32 @@ header {
     background: url("../images/arrow-icon-black.png") no-repeat center;
     background-size: 20px;
 }
+.proj-cards-wrapper {
+    padding-top: 100%;
+    position: relative;
+    margin-bottom: 130px;
+}
 .proj-card{
     padding: 30px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background-image: url("../images/proj-card-bg.png");
+    background-image: url(../images/proj-card-bg.png);
     background-repeat: no-repeat;
     background-position: left center;
-    background-size: cover;
-    min-height: 200px;
     border-radius: 8px;
-    margin-bottom: 130px;
-    max-width: 368px;
-    box-shadow: rgba(0, 0, 0, 0.22) 0 35px 30px;
+    filter: drop-shadow(0px 45px 30px rgba(0,0,0,0.4));
     transition: all 0.3s ease-in-out;
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
     -o-transition: all 0.3s ease-in-out;
     background-color: #471d19;
-}
-.proj-card:hover{
-    transform: translateY(-10px);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
 }
 .proj-card h2{
     font-size: 28px;
@@ -447,7 +462,7 @@ header {
 }
 .proj-card .button-grp-warpper h5{
     color: #fff;
-    padding-right: 50px;
+    padding-right: 60px;
 }
 .proj-card .button-grp-warpper h5::after{
     background: url("../images/arrow-icon-white.png") no-repeat center;
@@ -464,8 +479,10 @@ header {
     transform: translateY(-10px);
 }
 .proj-row {
-    overflow-y: hidden;
-    overflow-x: auto;
+    margin: 0 -35px;
+}
+.proj-col {
+    padding: 0 35px;
 }
 /* project overview css  */
 
@@ -477,6 +494,7 @@ header {
     padding-right: 50px;
     font-weight: 400;
     font-size: 24px;
+    letter-spacing: 0;
 }
 .contact-right-panel p {
     font-size: 24px;
@@ -486,6 +504,10 @@ header {
 }
 .contactus-panel {
     border-top: 1px solid #b1afa7;
+}
+.contact-right-panel {
+    max-width: 576px;
+    margin-left: auto;
 }
 .footer {
     font-weight: 400;
