@@ -423,7 +423,6 @@ header {
     background-size: 20px;
 }
 .proj-cards-wrapper {
-    padding-top: 100%;
     position: relative;
     margin-bottom: 130px;
 }
@@ -442,11 +441,7 @@ header {
     -moz-transition: all 0.3s ease-in-out;
     -o-transition: all 0.3s ease-in-out;
     background-color: #471d19;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+    min-height: 200px;
     background-size: cover;
 }
 .proj-card h2{

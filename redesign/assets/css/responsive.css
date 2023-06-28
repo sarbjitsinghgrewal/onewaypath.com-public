@@ -70,6 +70,9 @@
     .right-panel {
         padding-left: 26px;
     }
+    .proj-card{
+        min-height: 180px;
+    }
 }
 @media (max-width: 1199px){
     .pt-160 ,.pt-100{
@@ -163,6 +166,9 @@
     }
     .pt-160, .pt-100 {
         padding-top: 60px;
+    }
+    .proj-card {
+        min-height: 150px;
     }
 }
 @media (max-width: 767px){
@@ -272,7 +278,7 @@
         width: 46%;
     } 
     .proj-row > div {
-        width: 220px;
+        width: 73%;
     }
     .contact-right-panel .button-grp-warpper {
         width: 100%;
@@ -286,5 +292,8 @@
 @media (max-width: 360px){
     .center-panel h2 {
         font-size: 19px;
+    }
+    .proj-row > div {
+        width: 76%;
     }
 }
