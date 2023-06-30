@@ -31,9 +31,6 @@
     h1, h2 {
         font-size: 30px;
     }
-    .hero-banner::before{
-        background-position: 80% 50%;
-    }
     .proj-cards-wrapper{
         margin-bottom: 110px;
     }
@@ -170,6 +167,9 @@
     .proj-card {
         min-height: 150px;
     }
+    .hero-banner {
+        min-height: 460px;
+    }
 }
 @media (max-width: 767px){
     .pt-160, .pt-100 {
@@ -182,9 +182,6 @@
     }
     .hero-banner {
         min-height: 290px;
-    }
-    .hero-banner::before {
-        background-position: 70% 50%;
     }
     .proj-card{
         max-width: none;
@@ -223,6 +220,9 @@
     .hero-content p, .center-panel p, .right-panel .detail, .contact-right-panel p, .contact-right-panel .button-grp-warpper h5, .footer p {
         font-size: 14px;
         line-height: 21px;
+    }
+    .hero-banner::before{
+        width: 161%;
     }
 }
 @media (max-width: 575px){
