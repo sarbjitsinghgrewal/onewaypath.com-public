@@ -9,12 +9,19 @@
     .container {
         max-width: 1600px;
     }
+
 }
 @media (min-width: 1200px){
     .pt-100{
         padding-top: 100px;
     }        
 
+}
+@media (max-width: 1560px){
+    header .menu-icon svg {
+        height: 35px;
+        width: 35px;
+    }
 }
 @media (max-width: 1460px){
     h1, h2{
@@ -25,6 +32,10 @@
     }
     .center-panel p{
         font-size: 22px;
+    }
+    header .menu-icon svg {
+        height: 30px;
+        width: 30px;
     }
 }
 @media (max-width: 1366px){
@@ -108,8 +119,8 @@
         max-width: 280px;
     }
     header .menu-icon svg{
-        height: 30px;
-        width: 30px;
+        height: 28px;
+        width: 26px;
     }   
     .left-panel h4 br{
         display: none;
@@ -182,6 +193,10 @@
     }
     .hero-banner {
         min-height: 290px;
+    }
+    header .menu-icon svg {
+        height: 16px;
+        width: 18px;
     }
     .proj-card{
         max-width: none;
