@@ -9,13 +9,19 @@
     .container {
         max-width: 1600px;
     }
-
+    .hero-banner.community::before{
+        background-image: url(../images/comunity-banner.svg);
+        background-repeat: no-repeat;
+        background-size: auto;
+    }
 }
 @media (min-width: 1200px){
     .pt-100{
         padding-top: 100px;
-    }        
-
+    }      
+    .hero-banner.community{
+        min-height: 560px;
+    }
 }
 @media (max-width: 1560px){
     header .menu-icon svg {
@@ -81,6 +87,16 @@
     .proj-card{
         min-height: 180px;
     }
+    .section-padding {
+        padding-top: 90px;
+        padding-bottom: 90px;
+    }
+    .tbl-sec .table-row {
+        margin-bottom: 80px;
+    }
+    .tbl-sec .btn-wrp .btn {
+        margin-left: 90px;
+    }
 }
 @media (max-width: 1199px){
     .pt-160 ,.pt-100{
@@ -90,7 +106,7 @@
         margin-bottom: 20px;
     }
     .hero-banner {
-        min-height: 570px;
+        min-height: 560px;
     }
     .hero-content p,
     .proj-card h2, .center-panel p, .right-panel .detail, .contact-right-panel p, .contact-right-panel .button-grp-warpper h5{
@@ -124,6 +140,16 @@
     }   
     .left-panel h4 br{
         display: none;
+    }
+    .section-padding {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+    .tbl-sec .table-row {
+        margin-bottom: 60px;
+    }
+    .tbl-sec .btn-wrp .btn {
+        margin-left: 70px;
     }
 }
 @media (max-width: 991px){
@@ -181,9 +207,30 @@
     .hero-banner {
         min-height: 460px;
     }
+    .section-padding {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .tbl-sec .table-row {
+        margin-bottom: 50px;
+    }
+    .tbl-sec .btn-wrp .btn {
+        margin-left: 30px;
+        min-width: 150px;
+        font-size: 14px;
+    }
+    .btn::before{
+        background-size: 14px;
+    }
+    table thead th, table tbody td{
+        font-size: 14px;
+    }
 }
 @media (max-width: 767px){
-    .pt-160, .pt-100 {
+    .pt-160{
+        padding-top: 65px;
+    } 
+    .pt-100 {
         padding-top: 40px;
     }
     h4,.h4{letter-spacing: 1px;}
@@ -232,12 +279,38 @@
     .contactus-panel {
         padding: 80px 0 60px;
     }
-    .hero-content p, .center-panel p, .right-panel .detail, .contact-right-panel p, .contact-right-panel .button-grp-warpper h5, .footer p {
+    .hero-content p, .center-panel p, .right-panel .detail, .footer p {
         font-size: 14px;
         line-height: 21px;
     }
     .hero-banner::before{
         width: 161%;
+    }
+    table thead th, table tbody td {
+        font-size: 10px;
+    }
+    .section-padding {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .tbl-sec .table-row {
+        margin-bottom: 40px;
+    }
+    .tbl-sec table{
+        table-layout: fixed;
+    }
+    table thead th{
+        width: auto;
+    }
+    .tbl-sec .btn-wrp .btn {
+        margin-left: 0;
+        min-width: 124px;
+        font-size: 12px;
+        width: calc(50% - 54px);
+        margin-bottom: 30px;
+    }
+    .hero-banner.community{
+        min-height: 200px;
     }
 }
 @media (max-width: 575px){
@@ -246,7 +319,7 @@
         display: none;
     }
     .left-panel h4 {
-        font-size: 14px;
+        font-size: 12px;
         line-height: normal;
     }
     .center-panel h2 {

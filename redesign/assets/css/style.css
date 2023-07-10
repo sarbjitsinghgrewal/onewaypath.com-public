@@ -271,6 +271,10 @@ p:last-child{
 .pt-160{
     padding-top: 160px;
 }
+.section-padding{
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
 /* common css end  */
 
 /* header css  */
@@ -370,9 +374,29 @@ header {
 .right-panel .unit-wrapper {
     padding: 10px 0;
 }
+.btn {
+    border-bottom: 1px solid #818452;
+    padding: 0 0 10px;
+    margin-bottom: 50px;
+    text-decoration: none;
+    display: inline-block;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    position: relative;
+    border-radius: 0;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.6px;
+    text-transform: uppercase;
+    color: #818452;
+    min-width: 174px;
+    text-align: left;
+}
 .button-grp-warpper{
     border-bottom: 1px solid #818452;
-    padding-bottom: 10px;
+    padding: 0 0 10px;
     margin-bottom: 50px;
     text-decoration: none;
     display: inline-block;
@@ -381,8 +405,10 @@ header {
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
     -o-transition: all 0.3s ease-in-out;
+    position: relative;
+    border-radius: 0;
 }
-.button-grp-warpper:hover{
+.button-grp-warpper:hover,.btn:hover{
     border-bottom: 1px solid #000;
 }
 .button-grp-warpper h5{
@@ -402,7 +428,7 @@ header {
 .button-grp-warpper:hover h5{
     color: #000000;
 }
-.button-grp-warpper h5::after{
+.button-grp-warpper h5::after,.btn::before{
     content: "";
     background: url("../images/arrow-icon.png") no-repeat center;
     background-size: 20px;
@@ -418,7 +444,7 @@ header {
     -moz-transition: all 0.3s ease-in-out;
     -o-transition: all 0.3s ease-in-out;
 }
-.button-grp-warpper:hover h5::after{
+.button-grp-warpper:hover h5::after,.btn:hover::before{
     background: url("../images/arrow-icon-black.png") no-repeat center;
     background-size: 20px;
 }
@@ -513,3 +539,60 @@ header {
 }
 /* contact footer css  */
 
+/* table css  */
+table{
+    background: #FFF;
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 1px;
+    border-radius: 4px;
+}
+table thead th{
+    background: #B6914D;
+    color: #fff;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 130%;
+    text-transform: capitalize;
+    padding: 10px 12px;
+}
+table thead tr:first-child th:first-child{
+    border-top-left-radius: 4px;
+}
+table thead tr:last-child th:last-child{
+    border-top-right-radius: 4px;
+}
+table tbody tr:first-child td:first-child{
+    border-bottom-left-radius: 4px;
+}
+table tbody tr:last-child td:last-child{
+    border-bottom-right-radius: 4px;
+}
+table tbody td{
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+    padding: 10px 12px;
+}
+table tbody tr:nth-child(even){
+    background: #D2D2D2;
+}
+table tbody tr:nth-child(odd){
+    background: #F2F2F2;
+}
+.tbl-sec .table-row :last-child{
+    margin-bottom: 0;
+}
+.tbl-sec .table-row{
+    margin-bottom: 100px;
+}
+.tbl-sec .btn-wrp .btn{
+    margin-left: 117px;
+}
+.tbl-sec .tbl-wrp{
+    border-bottom: 1px solid #b1afa7;
+}
+/* table css  */
