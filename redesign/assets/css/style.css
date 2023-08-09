@@ -383,7 +383,7 @@ header {
 }
 .btn {
     border-bottom: 1px solid #818452;
-    padding: 0 0 10px;
+    padding: 0 20px 10px 0;
     margin-bottom: 50px;
     text-decoration: none;
     display: inline-block;
@@ -450,6 +450,7 @@ header {
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
     -o-transition: all 0.3s ease-in-out;
+    bottom: 10px;
 }
 .button-grp-warpper:hover h5::after,.btn:hover::before{
     background: url("../images/arrow-icon-black.png") no-repeat center;
@@ -511,6 +512,9 @@ header {
 }
 .proj-col {
     padding: 0 35px;
+}
+.owp-panel{
+    overflow: hidden;
 }
 /* project overview css  */
 
@@ -686,5 +690,34 @@ table tbody tr:nth-child(odd){
     max-width: 762px;
 }
 /* team section css  */
+
+/* buddavipassana pages css start */
+.hero-banner.budha-overview .hero-content p{
+    max-width: 743px;
+}
+.b-overview-sec .center-panel{
+    max-width: 805px;
+}
+.b-overview-sec .center-panel p{
+    line-height: 40px;
+}
+.b-overview-sec .overview-box:not(:last-child){
+    border-bottom: 1px solid #b1afa7;
+    padding-bottom: 70px;
+    margin-bottom: 70px;
+}
+.b-overview-pagelink .btn-wrp .btn{
+    margin-left: 60px;
+    min-width: 218px;
+}
+.b-overview-pagelink .pagelink-col {
+    margin-left: auto;
+    max-width: 805px;
+}
+.b-overview-pagelink .btn-wrp{
+    margin-left: -60px;
+    justify-content: space-between;
+}
+/* buddavipassana pages css end */
 
 
