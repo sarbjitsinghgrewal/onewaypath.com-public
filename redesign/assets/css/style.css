@@ -703,6 +703,7 @@ table tbody tr:nth-child(odd){
 }
 .b-overview-sec .center-panel p{
     line-height: 40px;
+    max-width: 100%;
 }
 .b-overview-sec .overview-box:not(:last-child){
     border-bottom: 1px solid #b1afa7;
