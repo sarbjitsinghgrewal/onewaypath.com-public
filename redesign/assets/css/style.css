@@ -728,6 +728,22 @@ table tbody tr:nth-child(odd){
 .b-overview-sec .center-panel li:not(:last-child){
     margin-bottom: 15px;
 }
+.b-overview-sec .overview-box h4{
+    font-size: 24px;
+    letter-spacing: 0;
+}
 /* buddavipassana pages css end */
+
+/* milen road css  */
+.m-about .col-right {
+    max-width: 597px;
+}
+.m-aboutpage .pagelink .btn-wrp{
+    margin-bottom: -50px;
+}
+.m-about-hero .hero-content p{
+    max-width: 725px;
+}
+/* milen road css end */
 
 

@@ -458,6 +458,15 @@
     ol {
         padding-left: 14px;
     }
+    .m-about .col-right{
+        max-width: 100%;
+    }
+    .b-overview-sec .overview-box h4{
+        font-size: 16px;
+    }
+    .m-aboutpage .pagelink .btn-wrp{
+        margin-bottom: -30px;
+    }
 }
 @media (max-width: 575px){
     h3, .h3 {
@@ -585,5 +594,8 @@
         background-size: 11px;
         bottom: 5px;
         background-position: right center;
+    }
+    .m-about-hero .hero-content p{
+        width: 100%;
     }
 }
