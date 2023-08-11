@@ -145,6 +145,10 @@
     .b-overview-sec .center-panel li:not(:last-child) {
         margin-bottom: 10px;
     }
+    .m-aboutpage h4,
+    .m-aboutpage .left-panel h4{
+        font-size: 22px;
+    }
 }
 @media (max-width: 1199px){
     h3, .h3 {
@@ -227,6 +231,10 @@
     }
     .b-overview-sec .center-panel p,.b-overview-sec .center-panel li{
         line-height: 32px;
+    }
+    .m-aboutpage h4,
+    .m-aboutpage .left-panel h4{
+        font-size: 20px;
     }
 }
 @media (max-width: 991px){
@@ -461,7 +469,8 @@
     .m-about .col-right{
         max-width: 100%;
     }
-    .b-overview-sec .overview-box h4{
+    .m-aboutpage h4,
+    .m-aboutpage .left-panel h4{
         font-size: 16px;
     }
     .m-aboutpage .pagelink .btn-wrp{

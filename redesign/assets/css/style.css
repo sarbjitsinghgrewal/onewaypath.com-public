@@ -728,9 +728,11 @@ table tbody tr:nth-child(odd){
 .b-overview-sec .center-panel li:not(:last-child){
     margin-bottom: 15px;
 }
-.b-overview-sec .overview-box h4{
-    font-size: 24px;
+.b-overview-sec .overview-box .center-panel h4{
     letter-spacing: 0;
+}
+.m-aboutpage h4{
+    font-size: 24px;
 }
 /* buddavipassana pages css end */
 
