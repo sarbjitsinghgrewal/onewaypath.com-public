@@ -53,7 +53,7 @@
     .right-panel .number{
         font-size: 64px;
     }
-    .center-panel p,.b-overview-sec .center-panel li{
+    .center-panel p{
         font-size: 22px;
     }
     header .menu-icon svg {
@@ -74,7 +74,7 @@
     .proj-card .button-grp-warpper h5 {
         font-size: 14px;
     }
-    .proj-card h2,.center-panel p,.right-panel .detail,.contact-right-panel p,.contact-right-panel .button-grp-warpper h5,.b-overview-sec .center-panel li{
+    .proj-card h2,.center-panel p,.right-panel .detail,.contact-right-panel p,.contact-right-panel .button-grp-warpper h5{
         font-size: 22px;
     }
     .right-panel .number{
@@ -139,11 +139,8 @@
     .b-overview-pagelink .pagelink-col {
         max-width: 100%;
     }
-    .b-overview-sec .center-panel p,.b-overview-sec .center-panel li {
+    .b-overview-sec .center-panel p {
         line-height: 34px;
-    }
-    .b-overview-sec .center-panel li:not(:last-child) {
-        margin-bottom: 10px;
     }
 }
 @media (max-width: 1199px){
@@ -160,7 +157,7 @@
         min-height: 560px;
     }
     .hero-content p,
-    .proj-card h2, .center-panel p, .right-panel .detail, .contact-right-panel p, .contact-right-panel .button-grp-warpper h5,.b-overview-sec .center-panel li{
+    .proj-card h2, .center-panel p, .right-panel .detail, .contact-right-panel p, .contact-right-panel .button-grp-warpper h5{
         font-size: 18px;
     }
     .center-panel h2 {
@@ -225,7 +222,7 @@
     .b-overview-pagelink .btn-wrp {
         margin-left: -70px;
     }
-    .b-overview-sec .center-panel p,.b-overview-sec .center-panel li{
+    .b-overview-sec .center-panel p{
         line-height: 32px;
     }
 }
@@ -249,7 +246,7 @@
         height: 20px;
         width: 23px;
     }  
-    .hero-content p, .center-panel p, .right-panel .detail, .contact-right-panel p, .contact-right-panel .button-grp-warpper h5, .footer p,.b-overview-sec .center-panel p,.b-overview-sec .center-panel li {
+    .hero-content p, .center-panel p, .right-panel .detail, .contact-right-panel p, .contact-right-panel .button-grp-warpper h5, .footer p,.b-overview-sec .center-panel p {
         font-size: 16px;
         line-height: 30px;
     }  
@@ -390,7 +387,7 @@
     .contactus-panel {
         padding: 80px 0 60px;
     }
-    .hero-content p, .center-panel p, .right-panel .detail, .footer p,.b-overview-sec .center-panel li {
+    .hero-content p, .center-panel p, .right-panel .detail, .footer p {
         font-size: 14px;
         line-height: 21px;
     }
@@ -455,9 +452,6 @@
     .hero-banner{
         padding: 30px 0;
     }
-    ol {
-        padding-left: 14px;
-    }
 }
 @media (max-width: 575px){
     h3, .h3 {
@@ -478,7 +472,7 @@
     .center-panel p, 
     .right-panel .detail,
     .proj-card .button-grp-warpper h5,
-    .footer,.footer p,.b-overview-sec .center-panel li
+    .footer,.footer p,
     .button-grp-warpper h5{
         font-size: 12px;
         line-height: 18px;
@@ -547,7 +541,7 @@
         padding-bottom: 20px;
         margin-bottom: 20px;
     }
-    .b-overview-sec .center-panel p,.b-overview-sec .center-panel li{
+    .b-overview-sec .center-panel p{
         font-size: 12px;
         line-height: 18px;
     }
