@@ -1,0 +1,501 @@
+
+@media (min-width: 1921px){
+    .hero-banner{
+        min-height: 880px;
+    }
+
+}
+@media (min-width: 1460px){
+    .container {
+        max-width: 1600px;
+    }
+    .hero-banner.community::before{
+        background-image: url(../images/comunity-banner.svg);
+        background-repeat: no-repeat;
+        background-size: auto;
+    }
+}
+@media (min-width: 1200px){
+    .pt-100{
+        padding-top: 100px;
+    }      
+    .hero-banner.community{
+        min-height: 560px;
+    }
+}
+@media (max-width: 1560px){
+    header .menu-icon svg {
+        height: 35px;
+        width: 35px;
+    }
+}
+@media (max-width: 1460px){
+    h1, h2{
+        font-size: 38px;
+    }    
+    .right-panel .number{
+        font-size: 64px;
+    }
+    .center-panel p{
+        font-size: 22px;
+    }
+    header .menu-icon svg {
+        height: 30px;
+        width: 30px;
+    }
+}
+@media (max-width: 1366px){
+    h1, h2 {
+        font-size: 30px;
+    }
+    h3, .h3 {
+        font-size: 26px;
+    }
+    .proj-cards-wrapper{
+        margin-bottom: 110px;
+    }
+    .proj-card .button-grp-warpper h5 {
+        font-size: 14px;
+    }
+    .proj-card h2,.center-panel p,.right-panel .detail,.contact-right-panel p,.contact-right-panel .button-grp-warpper h5{
+        font-size: 22px;
+    }
+    .right-panel .number{
+        font-size: 56px;
+    }
+    .proj-card h2, .center-panel p, .right-panel .detail, .contact-right-panel p, .contact-right-panel .button-grp-warpper h5 {
+        font-size: 20px;
+    }
+    .proj-col {
+        padding: 0 20px;
+    }
+    .proj-row {
+        margin: 0 -20px;
+    }
+    .right-panel .detail{
+        line-height: 36px;
+    }
+    .proj-col,.team-sec .team-col {
+        padding: 0 15px;
+    }
+    .proj-row {
+        margin: 0 -15px;
+    }
+    .pt-160 {
+        padding-top: 100px;
+    }
+    .right-panel {
+        padding-left: 26px;
+    }
+    .proj-card{
+        min-height: 180px;
+    }
+    .section-padding {
+        padding-top: 90px;
+        padding-bottom: 90px;
+    }
+    .tbl-sec .table-row {
+        margin-bottom: 80px;
+    }
+    .tbl-sec .btn-wrp .btn,.pagelink .btn-wrp .btn {
+        margin-left: 90px;
+    }
+    .team-sec .team-col{
+        margin-bottom: 30px;
+    }
+    .team-sec .team-row {
+        margin: 0 -15px -30px;
+    }
+    .team-sec .team-box{
+        padding-bottom: 65px;
+        margin-bottom: 65px;
+    }
+    .pagelink .btn-wrp{
+        padding: 60px 0;
+    }
+}
+@media (max-width: 1199px){
+    h3, .h3 {
+        font-size: 24px;
+    }
+    .pt-160 ,.pt-100{
+        padding-top: 70px;
+    }
+    .left-panel h4 {
+        margin-bottom: 20px;
+    }
+    .hero-banner {
+        min-height: 560px;
+    }
+    .hero-content p,
+    .proj-card h2, .center-panel p, .right-panel .detail, .contact-right-panel p, .contact-right-panel .button-grp-warpper h5{
+        font-size: 18px;
+    }
+    .center-panel h2 {
+        font-size: 32px;
+        margin-bottom: 15px;
+    }
+    .right-panel .number{
+        font-size: 44px;
+    }
+    .proj-card h2 {
+        font-size: 22px;
+    }
+    .proj-card {
+        padding: 20px;
+    }
+    .proj-card .button-grp-warpper h5{
+        padding-right: 40px;
+    }
+    header{
+        padding: 20px 0px;
+    }
+    .logo img {
+        max-width: 280px;
+    }
+    header .menu-icon svg{
+        height: 28px;
+        width: 26px;
+    }   
+    .left-panel h4 br{
+        display: none;
+    }
+    .section-padding {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+    .tbl-sec .table-row {
+        margin-bottom: 60px;
+    }
+    .tbl-sec .btn-wrp .btn,.pagelink .btn-wrp .btn {
+        margin-left: 70px;
+    }
+    .team-sec .team-box {
+        padding-bottom: 55px;
+        margin-bottom: 55px;
+    }
+    .team-sec .team-title .subtitle{
+        font-size: 18px;
+    }
+    .team-sec .team-title{
+        min-height: 200px;
+    }
+    .team-sec .team-desc ul li {
+        font-size: 16px;
+        padding-left: 14px;
+    }
+    .team-sec .team-desc ul li::before{
+        top: 7px;
+    }
+    .team-sec .team-desc .team-descWrp {
+        padding: 30px 15px 0px;
+    }
+}
+@media (max-width: 991px){
+    h3, .h3 {
+        font-size: 21px;
+    }
+    .hero-content p {
+        width: 90%;
+        font-size: 12px;
+    }
+    .hero-content h1 {
+        margin-bottom: 20px;
+        font-size: 24px;
+    }
+    
+    .proj-cards-wrapper{
+        margin-bottom: 60px;
+    }
+    header .menu-icon svg {
+        height: 20px;
+        width: 23px;
+    }  
+    .hero-content p, .center-panel p, .right-panel .detail, .contact-right-panel p, .contact-right-panel .button-grp-warpper h5, .footer p {
+        font-size: 16px;
+        line-height: 30px;
+    }  
+    .proj-card h2 {
+        font-size: 18px;
+    }
+    .proj-card .button-grp-warpper h5 {
+        font-size: 12px;
+        padding-right: 30px;
+    }
+    .proj-card .button-grp-warpper h5::after{
+        background-size: 13px;
+    }
+    .right-panel {
+        padding-left: 0;
+    }
+    .right-button-panel .btn-row:last-child .button-grp-warpper{
+        margin-bottom: 0;
+    }
+    .proj-col,.team-sec .team-col {
+        padding: 0 10px;
+    }
+    .proj-row {
+        margin: 0 -10px;
+    }
+    .center-panel p{
+        max-width: 100%;
+    }
+    .pt-160, .pt-100 {
+        padding-top: 60px;
+    }
+    .proj-card {
+        min-height: 150px;
+    }
+    .hero-banner {
+        min-height: 460px;
+    }
+    .section-padding {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .tbl-sec .table-row {
+        margin-bottom: 50px;
+    }
+    .tbl-sec .btn-wrp .btn,.pagelink .btn-wrp .btn {
+        margin-left: 30px;
+        min-width: 150px;
+        font-size: 14px;
+    }
+    .btn {
+        min-width: 150px;
+        font-size: 14px;
+    }
+    .btn::before{
+        background-size: 14px;
+    }
+    table thead th, table tbody td{
+        font-size: 14px;
+    }
+    .team-sec .team-row {
+        margin: 0 -10px -30px;
+    }
+    .team-sec .team-title{
+        padding: 23px 20px 13px;
+        min-height: 180px;
+    }
+    .team-sec .team-title .subtitle {
+        font-size: 14px;
+    }
+    .team-sec .team-title button img {
+        max-width: 16px;
+    }
+    .pagelink .btn-wrp {
+        padding: 50px 0;
+    }
+    .team-sec .team-box {
+        padding-bottom: 50px;
+        margin-bottom: 50px;
+    }
+}
+@media (max-width: 767px){
+    .pt-160{
+        padding-top: 65px;
+    } 
+    .pt-100 {
+        padding-top: 40px;
+    }
+    h4,.h4{letter-spacing: 1px;}
+    .hero-content h1{letter-spacing: 2px;}
+    .logo img {
+        max-width: 178px;
+    }
+    .hero-banner {
+        min-height: 290px;
+    }
+    header .menu-icon svg {
+        height: 16px;
+        width: 18px;
+    }
+    .proj-card{
+        max-width: none;
+        filter: drop-shadow(15px 18px 12px rgba(0,0,0,0.2));
+        margin-bottom: 75px;
+    }
+    .proj-row {
+        margin: 0 -30px 0 0;
+        overflow-y: auto;
+    }
+    .proj-row > div {
+        width: 45%;
+        padding: 0 20px 0 0;
+    }
+    .footer{
+        padding: 15px 0;
+    }
+    .container{
+        max-width: 100%;
+    }
+    .contact-right-panel p {
+        font-size: 16px;
+        margin-bottom: 20px;
+        line-height: 24px;
+    }
+    .contact-right-panel .button-grp-warpper h5 {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .project-overview-panel .right-panel {
+        padding-top: 10px;
+    }
+    .contactus-panel {
+        padding: 80px 0 60px;
+    }
+    .hero-content p, .center-panel p, .right-panel .detail, .footer p {
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .hero-banner::before{
+        width: 161%;
+    }
+    table thead th, table tbody td {
+        font-size: 10px;
+    }
+    .section-padding {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .tbl-sec .table-row {
+        margin-bottom: 40px;
+    }
+    .tbl-sec table{
+        table-layout: fixed;
+    }
+    table thead th{
+        width: auto;
+    }
+    .tbl-sec .btn-wrp .btn,.pagelink .btn-wrp .btn,.btn {
+        margin-left: 0;
+        min-width: 124px;
+        font-size: 12px;
+        width: calc(50% - 54px);
+        margin-bottom: 30px;
+    }
+    .btn {
+        min-width: 124px;
+        font-size: 12px;
+    }
+    .hero-banner.community{
+        min-height: 200px;
+        padding: 40px 0;
+    }
+    .team-sec .team-title .subtitle,
+    .team-sec .team-desc ul li {
+        font-size: 14px;
+    }
+    .team-sec .team-desc ul li::before {
+        height: 3px;
+        width: 3px;
+    }
+    .team-sec .team-desc .team-descWrp {
+        padding: 30px 0 0px;
+    }
+    .pagelink .btn-wrp {
+        padding: 60px 0 30px;
+    }
+    .team-sec {
+        padding-bottom: 100px;
+    }
+}
+@media (max-width: 575px){
+    h3, .h3 {
+        font-size: 20px;
+    }
+    h4,.h4{font-size: 12px;}
+    .left-panel h4 br {
+        display: none;
+    }
+    .left-panel h4 {
+        font-size: 12px;
+        line-height: normal;
+    }
+    .center-panel h2 {
+        font-size: 24px;
+    }
+    .hero-content p, 
+    .center-panel p, 
+    .right-panel .detail,
+    .proj-card .button-grp-warpper h5,
+    .footer,.footer p,
+    .button-grp-warpper h5{
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .button-grp-warpper h5::after,
+    .proj-card .button-grp-warpper h5::after{
+        background-size: 12px;
+    }
+    .button-grp-warpper {
+        margin-bottom: 20px;
+    }
+    .center-panel h2 + p {
+        margin-bottom: 0;
+    }
+    .proj-card h2 {
+        font-size: 20px;
+    }
+    .other-projects-panel .col-md-10 .row {
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        margin-left: -10px;
+        margin-right: -10px;
+    }
+    .other-projects-panel .col-md-10 .row .proj-col {
+        width: 75%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .footer .container {
+        padding-left: 30px;
+        padding-right: 30px;
+    }   
+    .project-overview-panel .right-button-panel .col-5 {
+        width: 46%;
+    } 
+    .proj-row > div {
+        width: 73%;
+    }
+    .contact-right-panel .button-grp-warpper {
+        width: 100%;
+    }
+    .team-sec .team-title .subtitle {
+        font-size: 12px;
+    }
+    .team-sec .team-title{
+        padding: 30px;
+    }
+    .team-sec .team-desc ul li {
+        margin-left: 7px;
+        padding-left: 12px;
+    }
+    .team-sec .team-title .subtitle, .team-sec .team-desc ul li {
+        font-size: 12px;
+    }
+    .team-sec .team-title button img {
+        max-width: 18px;
+    }
+    .team-sec .team-desc ul li::before {
+        top: 5px;
+    }
+    .team-sec .team-box {
+        padding-bottom: 30px;
+        margin-bottom: 30px;
+    }
+}
+@media (max-width: 375px){
+    .center-panel h2 {
+        font-size: 22px;
+    }
+}
+@media (max-width: 360px){
+    .center-panel h2 {
+        font-size: 19px;
+    }
+    .proj-row > div {
+        width: 76%;
+    }
+}
