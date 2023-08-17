@@ -3,7 +3,9 @@
     .hero-banner{
         min-height: 880px;
     }
-
+    .hero-banner.budha-overview {
+        min-height: 732px;
+    }
 }
 @media (min-width: 1460px){
     .container {
