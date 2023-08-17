@@ -3,7 +3,9 @@
     .hero-banner{
         min-height: 880px;
     }
-
+    .hero-banner.budha-overview {
+        min-height: 732px;
+    }
 }
 @media (min-width: 1460px){
     .container {
@@ -59,6 +61,9 @@
     header .menu-icon svg {
         height: 30px;
         width: 30px;
+    }
+    .b-overview-pagelink .pagelink-col {
+        max-width: 85%;
     }
 }
 @media (max-width: 1366px){
