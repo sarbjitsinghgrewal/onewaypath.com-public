@@ -62,6 +62,9 @@
         height: 30px;
         width: 30px;
     }
+    .b-overview-pagelink .pagelink-col {
+        max-width: 85%;
+    }
 }
 @media (max-width: 1366px){
     h1, h2 {
