@@ -971,7 +971,7 @@ table tbody tr:nth-child(odd) {
   font-family: 'Roboto Condensed', sans-serif;
   font-size: 20px;
   font-weight: 500;
-  max-height: 140px;
+  max-height: 180px;
   overflow: auto;
 }
 .carousel_body .owl-dots {
